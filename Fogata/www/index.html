@@ -1,0 +1,28 @@
+﻿<!doctype html>
+ <html ng-controller="AppCtrl" 
+  lang="{{App.LanguageCode}}" dir="{{App.TextDirection}}">
+  <head>
+   <meta charset="utf-8" />
+   <meta name="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+   <meta http-equiv="x-ua-compatible" content="ie=edge">
+   <meta http-equiv="Content-Security-Policy"
+    content="default-src * data: mediastream: blob: filesystem: cdvfile: ws: ms-appdata: ms-appx-web: gap: ng-src: 'unsafe-inline' 'unsafe-eval';" />
+   <meta name="generator" content="DecSoft's App Builder v2018.35 - https://www.davidesperalta.com/" />
+   <meta name="description" content="Fogata - App para recetas y pedidos online" />
+   <meta name="author" content="webnando - baulmac@gmail.com - https://webnando.es" />
+   <link rel="manifest" href="manifest.json" />
+   <link rel="icon" type="image/png" href="app/images/icon.png" />
+   <link rel="shortcut icon" href="app/images/icon.png" type="image/x-icon" />
+   <link rel="stylesheet" type="text/css" id="appTheme" href="builder/styles/default.css" />
+   <link rel="stylesheet" type="text/css" href="builder/styles/builder.css" />
+   <link rel="stylesheet" type="text/css" id="appStyle" href="app/styles/scaled.css" />
+   
+   <title>{{App.Name}}</title>
+  </head>
+  <body ng-view ng-controller="AppEventsCtrl">
+   <script src="builder/scripts/builder.js"></script>
+   <script src="app/scripts/app.js"></script>
+   <script src="cordova.js"></script>
+   
+  </body>
+ </html>

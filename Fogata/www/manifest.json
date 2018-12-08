@@ -1,0 +1,13 @@
+﻿{
+ "short_name": "Fogata",
+ "name": "App para recetas y pedidos online",
+ "icons": [{
+  "src": "app/images/icon.png",
+  "type": "image/png"
+ }],
+ "theme_color": "#FFFFFF",
+ "background_color": "#FFFFFF",
+ "start_url": "index.html",
+ "display": "standalone",
+ "orientation": "portrait-primary"
+}

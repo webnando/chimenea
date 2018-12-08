@@ -1,0 +1,12 @@
+﻿/*!
+ * This file is part of App Builder
+ *
+ * ©2018 App Builder - https://www.davidesperalta.com
+ */
+/* Código CSS auto generado para la app */
+
+html, body, .appView { width: 320px; height: 480px; }
+
+.dialogView .modal-dialog { width: 320px; margin: 0 auto; }
+
+#IFrame1 { position: absolute; top: 16px; left: 0px; width: 308px; height: 454px; }

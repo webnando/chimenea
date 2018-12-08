@@ -1,0 +1,16 @@
+<!--
+ This file is part of App Builder
+ For licenses information see App Builder help
+ ©2018 App Builder - https://www.davidesperalta.com
+-->
+<div class="modal-header alert alert-{{Properties.Type}}">
+ <span ng-bind-html="Properties.Header"></span>
+</div>
+<div class="modal-body" ng-bind-html="Properties.Content"></div>
+<div class="modal-footer">
+ <button
+  type="button" class="btn btn-md btn-{{Properties.Type}}"
+  ng-repeat="ButtonLabel in Properties.Buttons"
+  ng-click="closeModalView($index + 1)">{{ButtonLabel}}
+ </button>
+</div>

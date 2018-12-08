@@ -1,0 +1,10 @@
+<!--
+ This file is part of App Builder
+ For licenses information see App Builder help
+ ©2018 App Builder - https://www.davidesperalta.com
+-->
+ <div class="alert alert-{{Properties.Type}}" style="margin-bottom: 0;">
+   <button type="button" class="close"
+    ng-click="closeModalView()">&times;</button>
+  <div ng-bind-html="Properties.Content"></div>
+ </div>
